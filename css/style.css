@@ -56,6 +56,7 @@ h2, h3{
     font-size: 3.5rem;
     text-decoration: underline;
     text-shadow: 0.1rem 0.1rem gray;
+    margin-top: 30px;
 }
 
 p,ul{
@@ -67,3 +68,19 @@ p,ul{
     background-image: linear-gradient(to bottom right,#F3EFE0,#909999,#F3EFE0, #909999,#F3EFE0 );
     padding: 0;
 }
+
+#utazas p{
+    text-align: center;
+}
+
+#utazas div p{
+    text-align: left;
+}
+
+#utazas div{
+    text-align: left;
+    float: left;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
