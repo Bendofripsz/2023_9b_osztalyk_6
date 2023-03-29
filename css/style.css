@@ -1,6 +1,8 @@
 body{
     font-family: Arial;
     box-sizing: border-box;
+    font-size: 2rem;
+    background-image: linear-gradient(to  right, #F5F5F5, #DDDDDD, #F5F5F5, #DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5,#DDDDDD, #F5F5F5);
 }
 
 header{
@@ -15,4 +17,53 @@ header h1{
     text-align: center;
     text-decoration: underline;
     text-shadow: 0.1rem 0.1rem gray;
+}
+
+section{
+    border: 5px solid black;
+}
+
+#helyszin p{
+    display: inl;
+}
+
+#helyszin img{
+    float: left;
+    padding: 20px;
+}
+
+#helyszin h3{
+    font-size: 2.5rem;
+    padding: 1.5rem;
+}
+
+#leiras{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    margin-top: 50px;
+}
+
+#helyszin li{
+    margin: 0px 100px;
+    text-align: center;
+    list-style: none;
+    text-decoration: underline;
+}
+
+h2, h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-decoration: underline;
+    text-shadow: 0.1rem 0.1rem gray;
+}
+
+p,ul{
+    text-align: justify;
+    padding: 1rem 4rem;
+}
+
+.container{
+    background-image: linear-gradient(to bottom right,#F3EFE0,#909999,#F3EFE0, #909999,#F3EFE0 );
+    padding: 0;
 }
