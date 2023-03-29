@@ -60,7 +60,6 @@ h2, h3{
 }
 
 p,ul{
-    text-align: justify;
     padding: 1rem 4rem;
 }
 
@@ -84,3 +83,11 @@ p,ul{
     color: white;
 }
 
+#erkezes, #szobak{
+    float: left;
+    height: 500px;
+}
+
+#etkezes img{
+    
+}
