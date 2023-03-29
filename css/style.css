@@ -102,6 +102,11 @@ p,ul{
     background-color: rgb(66, 66, 66);
 }
 
+#programlehetosegek img:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+
 #programok{
     clear: both;
 }
